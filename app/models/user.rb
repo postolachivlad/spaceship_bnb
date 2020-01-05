@@ -14,5 +14,5 @@ class User < ApplicationRecord
                     uniqueness: true,
                     format: { with: /\A.*@.*\.com\z/ }
   validates :password, presence: true,
-                       lenght: { minimum: 6 }
+                       length: { minimum: 6 }
 end
