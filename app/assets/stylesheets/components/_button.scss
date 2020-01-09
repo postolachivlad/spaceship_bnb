@@ -1,0 +1,26 @@
+.button {
+  font-size: 16px;
+  color: $green;
+  font-weight: bold;
+  text-decoration: none;
+
+  border: 3px solid $green;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 5px 40px;
+}
+
+
+.button:hover {
+  background: $green;
+  color: $black;
+  text-decoration: none;
+}
+
+
+.button:active {
+  background: $white;
+  color: $black;
+  text-decoration: none;
+  border: 3px solid $white;
+}

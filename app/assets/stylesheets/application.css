@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
+@import "components/index";
+
+
+
 * {
   margin: 0;
   padding: 0;
